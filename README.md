@@ -17,6 +17,8 @@ The predictions and model descriptions involve:
 - a support vector machine (SVM/SVR), decision tree, and multi-layer perceptron (MLP) for each task
 - stratified 5-fold cross-validation to evaluate every model, compared by accuracy for classification and mean squared error for regression
 
+_Team: Ruben Odamo, Emmanuela Amune, Desange Nkumu, Michael Yianni, Joshua Gaynor_
+
 ## 3 - Breast Cancer Treatment Response and Survival Prediction
 Using real-world clinical data covering patient tumour characteristics, biomarkers, and treatment indicators, two end-to-end pipelines were built to predict pathological complete response (PCR) to treatment and relapse-free survival (RFS) after treatment.
 
@@ -25,3 +27,7 @@ The predictions and model descriptions involve:
 - feature selection and dimensionality reduction, including decision tree importance, mutual information, PCA, LDA, and LASSO, with clinically important features (ER, HER2, Gene) forced to remain
 - model development and 5-fold cross-validated comparison, with hyperparameter tuning via `GridSearchCV`
 - a final logistic regression model selected for PCR (via mutual information feature selection) and a final SVR (RBF kernel) model selected for RFS (via LASSO feature selection)
+
+_Team: Ruben Odamo, Emmanuela Amune, Desange Nkumu, Michael Yianni, Joshua Gaynor_
+
+> Note: the clinical dataset used for this project is not included, as it isn't the author's to share.
